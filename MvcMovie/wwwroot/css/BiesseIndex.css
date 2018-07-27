@@ -1,7 +1,49 @@
-﻿.navbar-header a {
-    text-align: center;
+﻿.navbar-brand {
+    /*position: relative;*/
+    height: auto;
+    vertical-align: middle;
 }
 
-.navbar-header a img {
-    margin: auto;
+.navbar-brand img {
+    /*position: absolute;
+    /transform: translate(-50%,-50%);*/
+    vertical-align: middle;
+}
+
+
+
+footer {
+    color: white;
+    background-color: #55565A;
+    width: 100%;
+    display: block;
+    /*position: relative;*/
+}
+footer div {
+    display: inline-block;
+    /*position: relative;
+    float: left;*/
+    margin: 25px;
+    border-color: lawngreen;
+    border-style: solid;
+}
+footer div a {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+footer div a:hover {
+    color: grey;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.fbssocial a{
+    margin-right: 14px;
+}
+.fbsgroup {
+
+}
+.fbscontacts {
+
 }
